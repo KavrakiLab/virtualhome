@@ -23,12 +23,12 @@ setuptools.setup(
     ],
     install_requires=[
         'certifi==2019.3.9',
-        'chardet==3.0.4',
+        'chardet>=3.0.4',
         'idna==2.8',
         'matplotlib>=3.4.2',
         'networkx==2.3',
         'numpy>=1.19.3',
-        'opencv-python==4.5.1.48',
+        'opencv-python>=4.5.1.48',
         'pillow>=8.3.1',
         'plotly==3.10.0',
         'requests>=1.21.0',
@@ -39,6 +39,6 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.8",
+    python_requires=">=3.10",
 )
 
